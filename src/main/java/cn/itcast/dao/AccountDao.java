@@ -14,6 +14,7 @@ import java.util.List;
 public interface AccountDao {
     //我是明兰
     //我是小六呀明兰呀
+    //明兰测试-1
 
     // 查询所有账户
     @Select("select * from account")
