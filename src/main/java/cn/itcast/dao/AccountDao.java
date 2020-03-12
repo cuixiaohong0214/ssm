@@ -12,9 +12,6 @@ import java.util.List;
  */
 @Repository   //交给容器管
 public interface AccountDao {
-    //白浅提交测试——1
-
-
     // 查询所有账户
     @Select("select * from account")
     public List<Account> findAll();
