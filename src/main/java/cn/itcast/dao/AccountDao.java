@@ -13,6 +13,7 @@ import java.util.List;
 @Repository   //交给容器管
 public interface AccountDao {
     //我是明兰
+    //我是小六呀明兰呀
 
     // 查询所有账户
     @Select("select * from account")
